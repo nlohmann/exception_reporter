@@ -1,0 +1,732 @@
+Call graph node <<null function>><<0x7fd328f42880>>  #uses=0
+  CS<0x0> calls function "bar(int, std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > > const&)"
+  CS<0x0> calls function "__cxa_allocate_exception"
+  CS<0x0> calls function "std::runtime_error::runtime_error(char const*)"
+  CS<0x0> calls function "__gxx_personality_v0"
+  CS<0x0> calls function "__cxa_free_exception"
+  CS<0x0> calls function "std::runtime_error::~runtime_error()"
+  CS<0x0> calls function "__cxa_throw"
+  CS<0x0> calls function "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::at(int const&) const"
+  CS<0x0> calls function "llvm.eh.typeid.for"
+  CS<0x0> calls function "__cxa_begin_catch"
+  CS<0x0> calls function "__cxa_end_catch"
+  CS<0x0> calls function "llvm.trap"
+  CS<0x0> calls function "main"
+  CS<0x0> calls function "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::map()"
+  CS<0x0> calls function "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::operator[](int&&)"
+  CS<0x0> calls function "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::~map()"
+  CS<0x0> calls function "std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__find_equal<int>(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, int const&) const"
+  CS<0x0> calls function "std::__1::__throw_out_of_range(char const*)"
+  CS<0x0> calls function "std::__1::__value_type<int, int>::__get_value()"
+  CS<0x0> calls function "std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__find_equal<int>(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, int const&)"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__root() const"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__root_ptr() const"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::value_comp()"
+  CS<0x0> calls function "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>::operator()(int const&, std::__1::__value_type<int, int> const&) const"
+  CS<0x0> calls function "std::__1::__tree_node_base<void*>** std::__1::addressof<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*&)"
+  CS<0x0> calls function "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>::operator()(std::__1::__value_type<int, int> const&, int const&) const"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__end_node()"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__end_node() const"
+  CS<0x0> calls function "std::__1::pointer_traits<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*>::pointer_to(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>&)"
+  CS<0x0> calls function "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::first() const"
+  CS<0x0> calls function "std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>* std::__1::addressof<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*> >(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>&)"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, 0, false>::__get() const"
+  CS<0x0> calls function "std::__1::__compressed_pair<unsigned long, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> >::second()"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, 1, true>::__get()"
+  CS<0x0> calls function "std::__1::less<int>::operator()(int const&, int const&) const"
+  CS<0x0> calls function "std::__1::__value_type<int, int>::__get_value() const"
+  CS<0x0> calls function "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::first()"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, 0, false>::__get()"
+  CS<0x0> calls function "std::out_of_range::out_of_range(char const*)"
+  CS<0x0> calls function "std::out_of_range::~out_of_range()"
+  CS<0x0> calls function "std::out_of_range::out_of_range(char const*)"
+  CS<0x0> calls function "std::logic_error::logic_error(char const*)"
+  CS<0x0> calls function "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::map()"
+  CS<0x0> calls function "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>::__map_value_compare(std::__1::less<int>)"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__tree(std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&)"
+  CS<0x0> calls function "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>::__map_value_compare(std::__1::less<int>)"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__tree(std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&)"
+  CS<0x0> calls function "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__compressed_pair<true, void>()"
+  CS<0x0> calls function "__clang_call_terminate"
+  CS<0x0> calls function "std::terminate()"
+  CS<0x0> calls function "std::__1::__compressed_pair<unsigned long, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> >::__compressed_pair<int, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>(int&&, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&&&)"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__begin_node()"
+  CS<0x0> calls function "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__compressed_pair<true, void>()"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, 0, false>::__compressed_pair_elem()"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >, 1, true>::__compressed_pair_elem()"
+  CS<0x0> calls function "std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>::__tree_end_node()"
+  CS<0x0> calls function "std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>::__tree_end_node()"
+  CS<0x0> calls function "std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::allocator()"
+  CS<0x0> calls function "std::__1::__compressed_pair<unsigned long, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> >::__compressed_pair<int, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>(int&&, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&&&)"
+  CS<0x0> calls function "int&& std::__1::forward<int>(std::__1::remove_reference<int>::type&)"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<unsigned long, 0, false>::__compressed_pair_elem<int, void>(int&&)"
+  CS<0x0> calls function "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&&& std::__1::forward<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>(std::__1::remove_reference<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>::type&)"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, 1, true>::__compressed_pair_elem<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&, void>(std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&&&)"
+  CS<0x0> calls function "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::~map()"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::~__tree()"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::~__tree()"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::destroy(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__node_alloc()"
+  CS<0x0> calls function "void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::destroy<std::__1::pair<int const, int> >(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::pair<int const, int>*)"
+  CS<0x0> calls function "std::__1::__tree_key_value_types<std::__1::__value_type<int, int> >::__get_ptr(std::__1::__value_type<int, int>&)"
+  CS<0x0> calls function "std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::deallocate(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, unsigned long)"
+  CS<0x0> calls function "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::second()"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >, 1, true>::__get()"
+  CS<0x0> calls function "void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__destroy<std::__1::pair<int const, int> >(std::__1::integral_constant<bool, false>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::pair<int const, int>*)"
+  CS<0x0> calls function "std::__1::pair<int const, int>* std::__1::addressof<std::__1::pair<int const, int> >(std::__1::pair<int const, int>&)"
+  CS<0x0> calls function "std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::deallocate(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, unsigned long)"
+  CS<0x0> calls function "std::__1::__libcpp_deallocate(void*, unsigned long, unsigned long)"
+  CS<0x0> calls function "std::__1::_DeallocateCaller::__do_deallocate_handle_size_align(void*, unsigned long, unsigned long)"
+  CS<0x0> calls function "std::__1::_DeallocateCaller::__do_deallocate_handle_size(void*, unsigned long)"
+  CS<0x0> calls function "std::__1::_DeallocateCaller::__do_call(void*)"
+  CS<0x0> calls function "operator delete(void*)"
+  CS<0x0> calls function "std::__1::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool> std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__emplace_unique_key_args<int, std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(int const&, std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"
+  CS<0x0> calls function "std::__1::tuple<int&&> std::__1::forward_as_tuple<int>(int&&)"
+  CS<0x0> calls function "std::__1::remove_reference<int&>::type&& std::__1::move<int&>(int&&&)"
+  CS<0x0> calls function "std::__1::tuple<> std::__1::forward_as_tuple<>()"
+  CS<0x0> calls function "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>::operator->() const"
+  CS<0x0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > > std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__construct_node<std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"
+  CS<0x0> calls function "std::__1::piecewise_construct_t const&&& std::__1::forward<std::__1::piecewise_construct_t const&>(std::__1::remove_reference<std::__1::piecewise_construct_t const&>::type&)"
+  CS<0x0> calls function "std::__1::tuple<int&&>&& std::__1::forward<std::__1::tuple<int&&> >(std::__1::remove_reference<std::__1::tuple<int&&> >::type&)"
+  CS<0x0> calls function "std::__1::tuple<>&& std::__1::forward<std::__1::tuple<> >(std::__1::remove_reference<std::__1::tuple<> >::type&)"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*)"
+  CS<0x0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::get() const"
+  CS<0x0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::release()"
+  CS<0x0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::~unique_ptr()"
+  CS<0x0> calls function "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>::__tree_iterator(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"
+  CS<0x0> calls function "std::__1::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool>::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool&, false>(std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>&&, bool&&&)"
+  CS<0x0> calls function "std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::allocate(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, unsigned long)"
+  CS<0x0> calls function "std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__tree_node_destructor(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, bool)"
+  CS<0x0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::unique_ptr<true, void>(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__dependent_type<std::__1::__unique_ptr_deleter_sfinae<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >, true>::__good_rval_ref_type)"
+  CS<0x0> calls function "void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::construct<std::__1::pair<int const, int>, std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::pair<int const, int>*, std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"
+  CS<0x0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::operator->() const"
+  CS<0x0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::get_deleter()"
+  CS<0x0> calls function "std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::allocate(unsigned long, void const*)"
+  CS<0x0> calls function "std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::max_size() const"
+  CS<0x0> calls function "std::__1::__throw_length_error(char const*)"
+  CS<0x0> calls function "std::__1::__libcpp_allocate(unsigned long, unsigned long)"
+  CS<0x0> calls function "std::length_error::length_error(char const*)"
+  CS<0x0> calls function "std::length_error::~length_error()"
+  CS<0x0> calls function "std::length_error::length_error(char const*)"
+  CS<0x0> calls function "operator new(unsigned long)"
+  CS<0x0> calls function "std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__tree_node_destructor(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, bool)"
+  CS<0x0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::unique_ptr<true, void>(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__dependent_type<std::__1::__unique_ptr_deleter_sfinae<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >, true>::__good_rval_ref_type)"
+  CS<0x0> calls function "std::__1::remove_reference<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&>::type&& std::__1::move<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&>(std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&&&)"
+  CS<0x0> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&&&, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&&)"
+  CS<0x0> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&&&, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&&)"
+  CS<0x0> calls function "std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&&& std::__1::forward<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&>(std::__1::remove_reference<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&>::type&)"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, 0, false>::__compressed_pair_elem<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&, void>(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&&&)"
+  CS<0x0> calls function "std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&& std::__1::forward<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >(std::__1::remove_reference<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::type&)"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >, 1, false>::__compressed_pair_elem<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >, void>(std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&&)"
+  CS<0x0> calls function "llvm.memcpy.p0i8.p0i8.i64"
+  CS<0x0> calls function "void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__construct<std::__1::pair<int const, int>, std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(std::__1::integral_constant<bool, true>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::pair<int const, int>*, std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"
+  CS<0x0> calls function "void std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::construct<std::__1::pair<int const, int>, std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(std::__1::pair<int const, int>*, std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"
+  CS<0x0> calls function "std::__1::pair<int const, int>::pair<int&&>(std::__1::piecewise_construct_t, std::__1::tuple<int&&>, std::__1::tuple<>)"
+  CS<0x0> calls function "std::__1::pair<int const, int>::pair<int&&, 0ul>(std::__1::piecewise_construct_t, std::__1::tuple<int&&>&, std::__1::tuple<>&, std::__1::__tuple_indices<0ul>, std::__1::__tuple_indices<>)"
+  CS<0x0> calls function "std::__1::pair<int const, int>::pair<int&&, 0ul>(std::__1::piecewise_construct_t, std::__1::tuple<int&&>&, std::__1::tuple<>&, std::__1::__tuple_indices<0ul>, std::__1::__tuple_indices<>)"
+  CS<0x0> calls function "int&&&& std::__1::forward<int&&>(std::__1::remove_reference<int&&>::type&)"
+  CS<0x0> calls function "std::__1::tuple_element<0ul, std::__1::tuple<int&&> >::type& std::__1::get<0ul, int&&>(std::__1::tuple<int&&>&)"
+  CS<0x0> calls function "std::__1::__tuple_leaf<0ul, int&&, false>::get()"
+  CS<0x0> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::first() const"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, 0, false>::__get() const"
+  CS<0x0> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::second()"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >, 1, false>::__get()"
+  CS<0x0> calls function "void std::__1::__tree_balance_after_insert<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)"
+  CS<0x0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::size()"
+  CS<0x0> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x0> calls function "bool std::__1::__tree_is_left_child<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"
+  CS<0x0> calls function "void std::__1::__tree_left_rotate<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"
+  CS<0x0> calls function "void std::__1::__tree_right_rotate<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"
+  CS<0x0> calls function "std::__1::__tree_node_base<void*>::__set_parent(std::__1::__tree_node_base<void*>*)"
+  CS<0x0> calls function "std::__1::__compressed_pair<unsigned long, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> >::first()"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<unsigned long, 0, false>::__get()"
+  CS<0x0> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::first()"
+  CS<0x0> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, 0, false>::__get()"
+  CS<0x0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::~unique_ptr()"
+  CS<0x0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::reset(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"
+  CS<0x0> calls function "std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::operator()(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"
+  CS<0x0> calls function "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>::__tree_iterator(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"
+  CS<0x0> calls function "std::__1::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool>::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool&, false>(std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>&&, bool&&&)"
+  CS<0x0> calls function "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>&& std::__1::forward<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long> >(std::__1::remove_reference<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long> >::type&)"
+  CS<0x0> calls function "bool&&& std::__1::forward<bool&>(std::__1::remove_reference<bool&>::type&)"
+  CS<0x0> calls function "std::__1::tuple<int&&>::tuple<int, false, false>(int&&)"
+  CS<0x0> calls function "std::__1::tuple<int&&>::tuple<int, false, false>(int&&)"
+  CS<0x0> calls function "std::__1::__tuple_impl<std::__1::__tuple_indices<0ul>, int&&>::__tuple_impl<0ul, int&&, int>(std::__1::__tuple_indices<0ul>, std::__1::__tuple_types<int&&>, std::__1::__tuple_indices<>, std::__1::__tuple_types<>, int&&)"
+  CS<0x0> calls function "std::__1::__tuple_impl<std::__1::__tuple_indices<0ul>, int&&>::__tuple_impl<0ul, int&&, int>(std::__1::__tuple_indices<0ul>, std::__1::__tuple_types<int&&>, std::__1::__tuple_indices<>, std::__1::__tuple_types<>, int&&)"
+  CS<0x0> calls function "std::__1::__tuple_leaf<0ul, int&&, false>::__tuple_leaf<int, void>(int&&)"
+  CS<0x0> calls function "std::__1::pointer_traits<std::__1::__value_type<int, int>*>::pointer_to(std::__1::__value_type<int, int>&)"
+  CS<0x0> calls function "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>::__get_np() const"
+  CS<0x0> calls function "std::__1::__value_type<int, int>* std::__1::addressof<std::__1::__value_type<int, int> >(std::__1::__value_type<int, int>&)"
+
+Call graph node for function: "bar(int, std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > > const&)"<<0x7fd328f41b80>>  #uses=2
+  CS<0x7fd328f04820> calls function "__cxa_allocate_exception"
+  CS<0x7fd328f04df8> calls function "std::runtime_error::runtime_error(char const*)"
+  CS<0x7fd328f050d0> calls function "__cxa_throw"
+  CS<0x7fd328f05560> calls function "__cxa_free_exception"
+  CS<0x7fd328f05ad8> calls function "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::at(int const&) const"
+  CS<0x7fd328f06670> calls function "__cxa_begin_catch"
+  CS<0x7fd328f06978> calls function "__cxa_end_catch"
+
+Call graph node for function: "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::get() const"<<0x7fd328f09860>>  #uses=2
+  CS<0x7fd328f2e490> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::first() const"
+
+Call graph node for function: "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::operator->() const"<<0x7fd328f33fd0>>  #uses=2
+  CS<0x7fd328f32440> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::first() const"
+
+Call graph node for function: "std::__1::__value_type<int, int>::__get_value() const"<<0x7fd328f2d2b0>>  #uses=3
+
+Call graph node for function: "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>::__get_np() const"<<0x7fd328f06210>>  #uses=2
+
+Call graph node for function: "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>::operator->() const"<<0x7fd328f32940>>  #uses=2
+  CS<0x7fd328f28d60> calls function "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>::__get_np() const"
+  CS<0x7fd328f290a0> calls function "std::__1::pointer_traits<std::__1::__value_type<int, int>*>::pointer_to(std::__1::__value_type<int, int>&)"
+
+Call graph node for function: "std::__1::__tree_node_base<void*>::__parent_unsafe() const"<<0x7fd328f01160>>  #uses=18
+
+Call graph node for function: "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::first() const"<<0x7fd328f29ea0>>  #uses=2
+  CS<0x7fd328f14f00> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, 0, false>::__get() const"
+
+Call graph node for function: "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::first() const"<<0x7fd328f21ac0>>  #uses=3
+  CS<0x7fd328f3e590> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, 0, false>::__get() const"
+
+Call graph node for function: "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>::operator()(std::__1::__value_type<int, int> const&, int const&) const"<<0x7fd328f57190>>  #uses=2
+  CS<0x7fd328f136f0> calls function "std::__1::__value_type<int, int>::__get_value() const"
+  CS<0x7fd328f138d0> calls function "std::__1::less<int>::operator()(int const&, int const&) const"
+
+Call graph node for function: "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>::operator()(int const&, std::__1::__value_type<int, int> const&) const"<<0x7fd328f4a660>>  #uses=2
+  CS<0x7fd328f12ff0> calls function "std::__1::__value_type<int, int>::__get_value() const"
+  CS<0x7fd328f08370> calls function "std::__1::less<int>::operator()(int const&, int const&) const"
+
+Call graph node for function: "std::__1::__compressed_pair_elem<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, 0, false>::__get() const"<<0x7fd328f28550>>  #uses=2
+
+Call graph node for function: "std::__1::__compressed_pair_elem<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, 0, false>::__get() const"<<0x7fd328f01060>>  #uses=2
+
+Call graph node for function: "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::at(int const&) const"<<0x7fd328f3e2f0>>  #uses=2
+  CS<0x7fd328f077d0> calls function "std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__find_equal<int>(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, int const&) const"
+  CS<0x7fd328f07ce0> calls function "std::__1::__throw_out_of_range(char const*)"
+  CS<0x7fd328f08100> calls function "std::__1::__value_type<int, int>::__get_value()"
+
+Call graph node for function: "std::__1::less<int>::operator()(int const&, int const&) const"<<0x7fd328f2aa90>>  #uses=3
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__end_node() const"<<0x7fd328f2e040>>  #uses=3
+  CS<0x7fd328f145e0> calls function "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::first() const"
+  CS<0x7fd328f14710> calls function "std::__1::pointer_traits<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*>::pointer_to(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>&)"
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__root_ptr() const"<<0x7fd328f2fec0>>  #uses=2
+  CS<0x7fd328f122f0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__end_node() const"
+  CS<0x7fd328f12480> calls function "std::__1::__tree_node_base<void*>** std::__1::addressof<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*&)"
+
+Call graph node for function: "std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__find_equal<int>(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, int const&) const"<<0x7fd328f3a0c0>>  #uses=2
+  CS<0x7fd328f0c9e0> calls function "std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__find_equal<int>(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, int const&)"
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__root() const"<<0x7fd328f30bd0>>  #uses=3
+  CS<0x7fd328f11f40> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__end_node() const"
+
+Call graph node for function: "std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::max_size() const"<<0x7fd328f0c0c0>>  #uses=2
+
+Call graph node for function: "std::logic_error::logic_error(char const*)"<<0x7fd328f263b0>>  #uses=3
+  CS<0x0> calls external node
+
+Call graph node for function: "std::length_error::length_error(char const*)"<<0x7fd328f187f0>>  #uses=2
+  CS<0x7fd328f350e8> calls function "std::length_error::length_error(char const*)"
+
+Call graph node for function: "std::length_error::length_error(char const*)"<<0x7fd328f17e00>>  #uses=2
+  CS<0x7fd328f35588> calls function "std::logic_error::logic_error(char const*)"
+
+Call graph node for function: "std::length_error::~length_error()"<<0x7fd328f117b0>>  #uses=1
+  CS<0x0> calls external node
+
+Call graph node for function: "std::out_of_range::out_of_range(char const*)"<<0x7fd328f31dd0>>  #uses=2
+  CS<0x7fd328f16d68> calls function "std::out_of_range::out_of_range(char const*)"
+
+Call graph node for function: "std::out_of_range::out_of_range(char const*)"<<0x7fd328f274b0>>  #uses=2
+  CS<0x7fd328f172d8> calls function "std::logic_error::logic_error(char const*)"
+
+Call graph node for function: "std::out_of_range::~out_of_range()"<<0x7fd328f2c340>>  #uses=1
+  CS<0x0> calls external node
+
+Call graph node for function: "std::runtime_error::runtime_error(char const*)"<<0x7fd328f40860>>  #uses=2
+  CS<0x0> calls external node
+
+Call graph node for function: "std::runtime_error::~runtime_error()"<<0x7fd328f3b340>>  #uses=1
+  CS<0x0> calls external node
+
+Call graph node for function: "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::get_deleter()"<<0x7fd328f00cf0>>  #uses=2
+  CS<0x7fd328f328f0> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::second()"
+
+Call graph node for function: "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::reset(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"<<0x7fd328f50dd0>>  #uses=2
+  CS<0x7fd328f4b0f0> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::first()"
+  CS<0x7fd328f4b430> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::first()"
+  CS<0x7fd328f4afd0> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::second()"
+  CS<0x7fd328f4baa8> calls function "std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::operator()(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"
+
+Call graph node for function: "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::release()"<<0x7fd328f07d30>>  #uses=2
+  CS<0x7fd328f2ea50> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::first()"
+  CS<0x7fd328f2edb0> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::first()"
+
+Call graph node for function: "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::unique_ptr<true, void>(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__dependent_type<std::__1::__unique_ptr_deleter_sfinae<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >, true>::__good_rval_ref_type)"<<0x7fd328f44570>>  #uses=2
+  CS<0x7fd328f313c0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::unique_ptr<true, void>(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__dependent_type<std::__1::__unique_ptr_deleter_sfinae<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >, true>::__good_rval_ref_type)"
+
+Call graph node for function: "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::unique_ptr<true, void>(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__dependent_type<std::__1::__unique_ptr_deleter_sfinae<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >, true>::__good_rval_ref_type)"<<0x7fd328f56280>>  #uses=2
+  CS<0x7fd328f36670> calls function "std::__1::remove_reference<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&>::type&& std::__1::move<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&>(std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&&&)"
+  CS<0x7fd328f36b10> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&&&, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&&)"
+  CS<0x7fd328f36c40> calls function "__clang_call_terminate"
+
+Call graph node for function: "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::~unique_ptr()"<<0x7fd328f08a20>>  #uses=4
+  CS<0x7fd328f2f160> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::~unique_ptr()"
+
+Call graph node for function: "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::~unique_ptr()"<<0x7fd328f42340>>  #uses=2
+  CS<0x7fd328f4ac08> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::reset(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"
+
+Call graph node for function: "std::__1::__tuple_impl<std::__1::__tuple_indices<0ul>, int&&>::__tuple_impl<0ul, int&&, int>(std::__1::__tuple_indices<0ul>, std::__1::__tuple_types<int&&>, std::__1::__tuple_indices<>, std::__1::__tuple_types<>, int&&)"<<0x7fd328f510d0>>  #uses=2
+  CS<0x7fd328f4f628> calls function "std::__1::__tuple_impl<std::__1::__tuple_indices<0ul>, int&&>::__tuple_impl<0ul, int&&, int>(std::__1::__tuple_indices<0ul>, std::__1::__tuple_types<int&&>, std::__1::__tuple_indices<>, std::__1::__tuple_types<>, int&&)"
+
+Call graph node for function: "std::__1::__tuple_impl<std::__1::__tuple_indices<0ul>, int&&>::__tuple_impl<0ul, int&&, int>(std::__1::__tuple_indices<0ul>, std::__1::__tuple_types<int&&>, std::__1::__tuple_indices<>, std::__1::__tuple_types<>, int&&)"<<0x7fd328f51170>>  #uses=2
+  CS<0x7fd328f4fa80> calls function "int&& std::__1::forward<int>(std::__1::remove_reference<int>::type&)"
+  CS<0x7fd328f4fc48> calls function "std::__1::__tuple_leaf<0ul, int&&, false>::__tuple_leaf<int, void>(int&&)"
+
+Call graph node for function: "std::__1::__tuple_leaf<0ul, int&&, false>::get()"<<0x7fd328f01000>>  #uses=2
+
+Call graph node for function: "std::__1::__tuple_leaf<0ul, int&&, false>::__tuple_leaf<int, void>(int&&)"<<0x7fd328f511f0>>  #uses=2
+  CS<0x7fd328f500f0> calls function "int&& std::__1::forward<int>(std::__1::remove_reference<int>::type&)"
+
+Call graph node for function: "std::__1::__value_type<int, int>::__get_value()"<<0x7fd328f39800>>  #uses=4
+
+Call graph node for function: "std::__1::pointer_traits<std::__1::__value_type<int, int>*>::pointer_to(std::__1::__value_type<int, int>&)"<<0x7fd328f055b0>>  #uses=2
+  CS<0x7fd328f50450> calls function "std::__1::__value_type<int, int>* std::__1::addressof<std::__1::__value_type<int, int> >(std::__1::__value_type<int, int>&)"
+
+Call graph node for function: "std::__1::pointer_traits<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*>::pointer_to(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>&)"<<0x7fd328f29c10>>  #uses=3
+  CS<0x7fd328f14a70> calls function "std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>* std::__1::addressof<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*> >(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>&)"
+
+Call graph node for function: "std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>::__tree_end_node()"<<0x7fd328f1cf30>>  #uses=2
+  CS<0x7fd328f1c210> calls function "std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>::__tree_end_node()"
+
+Call graph node for function: "std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>::__tree_end_node()"<<0x7fd328f1b630>>  #uses=2
+
+Call graph node for function: "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>::__tree_iterator(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"<<0x7fd328f04bf0>>  #uses=2
+  CS<0x7fd328f2f708> calls function "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>::__tree_iterator(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"
+
+Call graph node for function: "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>::__tree_iterator(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"<<0x7fd328f0d020>>  #uses=2
+
+Call graph node for function: "std::__1::__tree_node_base<void*>::__set_parent(std::__1::__tree_node_base<void*>*)"<<0x7fd328f50a70>>  #uses=5
+
+Call graph node for function: "std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::deallocate(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, unsigned long)"<<0x7fd328f14760>>  #uses=3
+  CS<0x7fd328f223d0> calls function "std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::deallocate(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, unsigned long)"
+
+Call graph node for function: "void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__construct<std::__1::pair<int const, int>, std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(std::__1::integral_constant<bool, true>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::pair<int const, int>*, std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"<<0x7fd328f49e20>>  #uses=2
+  CS<0x7fd328f3a070> calls function "std::__1::piecewise_construct_t const&&& std::__1::forward<std::__1::piecewise_construct_t const&>(std::__1::remove_reference<std::__1::piecewise_construct_t const&>::type&)"
+  CS<0x7fd328f3a1f0> calls function "std::__1::tuple<int&&>&& std::__1::forward<std::__1::tuple<int&&> >(std::__1::remove_reference<std::__1::tuple<int&&> >::type&)"
+  CS<0x7fd328f3a2c0> calls function "std::__1::tuple<>&& std::__1::forward<std::__1::tuple<> >(std::__1::remove_reference<std::__1::tuple<> >::type&)"
+  CS<0x7fd328f3a6b0> calls function "void std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::construct<std::__1::pair<int const, int>, std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(std::__1::pair<int const, int>*, std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"
+
+Call graph node for function: "void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::destroy<std::__1::pair<int const, int> >(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::pair<int const, int>*)"<<0x7fd328f154c0>>  #uses=3
+  CS<0x7fd328f21888> calls function "void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__destroy<std::__1::pair<int const, int> >(std::__1::integral_constant<bool, false>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::pair<int const, int>*)"
+
+Call graph node for function: "std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::allocate(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, unsigned long)"<<0x7fd328f03fa0>>  #uses=2
+  CS<0x7fd328f303a0> calls function "std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::allocate(unsigned long, void const*)"
+
+Call graph node for function: "void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__destroy<std::__1::pair<int const, int> >(std::__1::integral_constant<bool, false>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::pair<int const, int>*)"<<0x7fd328f13e40>>  #uses=2
+
+Call graph node for function: "void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::construct<std::__1::pair<int const, int>, std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::pair<int const, int>*, std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"<<0x7fd328f34000>>  #uses=2
+  CS<0x7fd328f31bf0> calls function "std::__1::piecewise_construct_t const&&& std::__1::forward<std::__1::piecewise_construct_t const&>(std::__1::remove_reference<std::__1::piecewise_construct_t const&>::type&)"
+  CS<0x7fd328f31c70> calls function "std::__1::tuple<int&&>&& std::__1::forward<std::__1::tuple<int&&> >(std::__1::remove_reference<std::__1::tuple<int&&> >::type&)"
+  CS<0x7fd328f31d80> calls function "std::__1::tuple<>&& std::__1::forward<std::__1::tuple<> >(std::__1::remove_reference<std::__1::tuple<> >::type&)"
+  CS<0x7fd328f32220> calls function "void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__construct<std::__1::pair<int const, int>, std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(std::__1::integral_constant<bool, true>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::pair<int const, int>*, std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"
+
+Call graph node for function: "std::__1::tuple<> std::__1::forward_as_tuple<>()"<<0x7fd328f34cd0>>  #uses=2
+
+Call graph node for function: "std::__1::tuple<int&&> std::__1::forward_as_tuple<int>(int&&)"<<0x7fd328f33da0>>  #uses=2
+  CS<0x7fd328f28340> calls function "int&& std::__1::forward<int>(std::__1::remove_reference<int>::type&)"
+  CS<0x7fd328f28508> calls function "std::__1::tuple<int&&>::tuple<int, false, false>(int&&)"
+
+Call graph node for function: "std::__1::_DeallocateCaller::__do_deallocate_handle_size(void*, unsigned long)"<<0x7fd328f0e530>>  #uses=2
+  CS<0x7fd328f24b20> calls function "std::__1::_DeallocateCaller::__do_call(void*)"
+
+Call graph node for function: "std::__1::_DeallocateCaller::__do_deallocate_handle_size_align(void*, unsigned long, unsigned long)"<<0x7fd328f106f0>>  #uses=2
+  CS<0x7fd328f246a8> calls function "std::__1::_DeallocateCaller::__do_deallocate_handle_size(void*, unsigned long)"
+
+Call graph node for function: "std::__1::_DeallocateCaller::__do_call(void*)"<<0x7fd328f08e50>>  #uses=2
+  CS<0x7fd328f24e60> calls function "operator delete(void*)"
+
+Call graph node for function: "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::first()"<<0x7fd328f2a980>>  #uses=2
+  CS<0x7fd328f16630> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, 0, false>::__get()"
+
+Call graph node for function: "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::second()"<<0x7fd328f140a0>>  #uses=2
+  CS<0x7fd328f22810> calls function "std::__1::__compressed_pair_elem<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >, 1, true>::__get()"
+
+Call graph node for function: "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__compressed_pair<true, void>()"<<0x7fd328f23820>>  #uses=2
+  CS<0x7fd328f1a230> calls function "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__compressed_pair<true, void>()"
+
+Call graph node for function: "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__compressed_pair<true, void>()"<<0x7fd328f20ae0>>  #uses=2
+  CS<0x7fd328f1b2e0> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, 0, false>::__compressed_pair_elem()"
+  CS<0x7fd328f1b5e0> calls function "std::__1::__compressed_pair_elem<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >, 1, true>::__compressed_pair_elem()"
+
+Call graph node for function: "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::first()"<<0x7fd328f1ee60>>  #uses=5
+  CS<0x7fd328f4a570> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, 0, false>::__get()"
+
+Call graph node for function: "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::second()"<<0x7fd328f320d0>>  #uses=3
+  CS<0x7fd328f3ed50> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >, 1, false>::__get()"
+
+Call graph node for function: "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&&&, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&&)"<<0x7fd328f0f780>>  #uses=2
+  CS<0x7fd328f37570> calls function "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&&&, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&&)"
+
+Call graph node for function: "std::__1::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::__compressed_pair<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&&&, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&&)"<<0x7fd328f0f7b0>>  #uses=2
+  CS<0x7fd328f37c40> calls function "std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&&& std::__1::forward<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&>(std::__1::remove_reference<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&>::type&)"
+  CS<0x7fd328f37ed8> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, 0, false>::__compressed_pair_elem<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&, void>(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&&&)"
+  CS<0x7fd328f38380> calls function "std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&& std::__1::forward<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >(std::__1::remove_reference<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::type&)"
+  CS<0x7fd328f386e8> calls function "std::__1::__compressed_pair_elem<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >, 1, false>::__compressed_pair_elem<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >, void>(std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&&)"
+
+Call graph node for function: "std::__1::__compressed_pair<unsigned long, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> >::first()"<<0x7fd328f50a10>>  #uses=2
+  CS<0x7fd328f49ea0> calls function "std::__1::__compressed_pair_elem<unsigned long, 0, false>::__get()"
+
+Call graph node for function: "std::__1::__compressed_pair<unsigned long, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> >::second()"<<0x7fd328f2baa0>>  #uses=2
+  CS<0x7fd328f157c0> calls function "std::__1::__compressed_pair_elem<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, 1, true>::__get()"
+
+Call graph node for function: "std::__1::__compressed_pair<unsigned long, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> >::__compressed_pair<int, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>(int&&, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&&&)"<<0x7fd328f232e0>>  #uses=2
+  CS<0x7fd328f1ace0> calls function "std::__1::__compressed_pair<unsigned long, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> >::__compressed_pair<int, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>(int&&, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&&&)"
+
+Call graph node for function: "std::__1::__compressed_pair<unsigned long, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> >::__compressed_pair<int, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>(int&&, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&&&)"<<0x7fd328f1e880>>  #uses=2
+  CS<0x7fd328f1cd50> calls function "int&& std::__1::forward<int>(std::__1::remove_reference<int>::type&)"
+  CS<0x7fd328f1cff8> calls function "std::__1::__compressed_pair_elem<unsigned long, 0, false>::__compressed_pair_elem<int, void>(int&&)"
+  CS<0x7fd328f1d400> calls function "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&&& std::__1::forward<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>(std::__1::remove_reference<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>::type&)"
+  CS<0x7fd328f1d6e8> calls function "std::__1::__compressed_pair_elem<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, 1, true>::__compressed_pair_elem<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&, void>(std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&&&)"
+
+Call graph node for function: "std::__1::__libcpp_allocate(unsigned long, unsigned long)"<<0x7fd328f1c180>>  #uses=2
+  CS<0x7fd328f34b80> calls function "operator new(unsigned long)"
+
+Call graph node for function: "void std::__1::__tree_left_rotate<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"<<0x7fd328f01190>>  #uses=3
+  CS<0x7fd328f46718> calls function "std::__1::__tree_node_base<void*>::__set_parent(std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f46bd0> calls function "bool std::__1::__tree_is_left_child<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f472d0> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f477e8> calls function "std::__1::__tree_node_base<void*>::__set_parent(std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f47920> calls function "__clang_call_terminate"
+
+Call graph node for function: "std::__1::__libcpp_deallocate(void*, unsigned long, unsigned long)"<<0x7fd328f0e700>>  #uses=2
+  CS<0x7fd328f24060> calls function "std::__1::_DeallocateCaller::__do_deallocate_handle_size_align(void*, unsigned long, unsigned long)"
+
+Call graph node for function: "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>::__map_value_compare(std::__1::less<int>)"<<0x7fd328f240b0>>  #uses=2
+  CS<0x7fd328f181c0> calls function "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>::__map_value_compare(std::__1::less<int>)"
+
+Call graph node for function: "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>::__map_value_compare(std::__1::less<int>)"<<0x7fd328f24ef0>>  #uses=2
+
+Call graph node for function: "void std::__1::__tree_right_rotate<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"<<0x7fd328f509b0>>  #uses=3
+  CS<0x7fd328f486a8> calls function "std::__1::__tree_node_base<void*>::__set_parent(std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f48c80> calls function "bool std::__1::__tree_is_left_child<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f491f0> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f496c8> calls function "std::__1::__tree_node_base<void*>::__set_parent(std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f49800> calls function "__clang_call_terminate"
+
+Call graph node for function: "std::__1::__throw_length_error(char const*)"<<0x7fd328f0c120>>  #uses=2
+  CS<0x7fd328f33ba0> calls function "__cxa_allocate_exception"
+  CS<0x7fd328f33f88> calls function "std::length_error::length_error(char const*)"
+  CS<0x7fd328f34220> calls function "__cxa_throw"
+  CS<0x7fd328f344f0> calls function "__cxa_free_exception"
+
+Call graph node for function: "std::__1::__throw_out_of_range(char const*)"<<0x7fd328f3a310>>  #uses=2
+  CS<0x7fd328f0cbf0> calls function "__cxa_allocate_exception"
+  CS<0x7fd328f0cfd8> calls function "std::out_of_range::out_of_range(char const*)"
+  CS<0x7fd328f0d260> calls function "__cxa_throw"
+  CS<0x7fd328f0d540> calls function "__cxa_free_exception"
+
+Call graph node for function: "bool std::__1::__tree_is_left_child<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"<<0x7fd328f01220>>  #uses=6
+
+Call graph node for function: "std::__1::__compressed_pair_elem<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, 0, false>::__get()"<<0x7fd328f27750>>  #uses=2
+
+Call graph node for function: "std::__1::__compressed_pair_elem<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, 0, false>::__compressed_pair_elem()"<<0x7fd328f1e390>>  #uses=2
+  CS<0x7fd328f1ba10> calls function "std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>::__tree_end_node()"
+
+Call graph node for function: "std::__1::__compressed_pair_elem<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, 1, true>::__get()"<<0x7fd328f2f250>>  #uses=2
+
+Call graph node for function: "std::__1::__compressed_pair_elem<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, 1, true>::__compressed_pair_elem<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&, void>(std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&&&)"<<0x7fd328f18eb0>>  #uses=2
+  CS<0x7fd328f1e340> calls function "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&&& std::__1::forward<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>(std::__1::remove_reference<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>::type&)"
+
+Call graph node for function: "std::__1::__compressed_pair_elem<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >, 1, false>::__get()"<<0x7fd328f010e0>>  #uses=2
+
+Call graph node for function: "std::__1::__compressed_pair_elem<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >, 1, false>::__compressed_pair_elem<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >, void>(std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&&)"<<0x7fd328f54410>>  #uses=2
+  CS<0x7fd328f39380> calls function "std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&& std::__1::forward<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >(std::__1::remove_reference<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::type&)"
+
+Call graph node for function: "std::__1::__compressed_pair_elem<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >, 1, true>::__get()"<<0x7fd328f15ac0>>  #uses=2
+
+Call graph node for function: "std::__1::__compressed_pair_elem<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >, 1, true>::__compressed_pair_elem()"<<0x7fd328f1cda0>>  #uses=2
+  CS<0x7fd328f1be60> calls function "std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::allocator()"
+
+Call graph node for function: "std::__1::__compressed_pair_elem<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, 0, false>::__get()"<<0x7fd328f50d50>>  #uses=2
+
+Call graph node for function: "std::__1::__compressed_pair_elem<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, 0, false>::__compressed_pair_elem<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&, void>(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&&&)"<<0x7fd328f57240>>  #uses=2
+  CS<0x7fd328f38cf0> calls function "std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&&& std::__1::forward<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&>(std::__1::remove_reference<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&>::type&)"
+
+Call graph node for function: "std::__1::__compressed_pair_elem<unsigned long, 0, false>::__get()"<<0x7fd328f50ad0>>  #uses=2
+
+Call graph node for function: "std::__1::__compressed_pair_elem<unsigned long, 0, false>::__compressed_pair_elem<int, void>(int&&)"<<0x7fd328f19af0>>  #uses=2
+  CS<0x7fd328f1dcb0> calls function "int&& std::__1::forward<int>(std::__1::remove_reference<int>::type&)"
+
+Call graph node for function: "std::__1::__tree_key_value_types<std::__1::__value_type<int, int> >::__get_ptr(std::__1::__value_type<int, int>&)"<<0x7fd328f15810>>  #uses=4
+  CS<0x7fd328f21a40> calls function "std::__1::__value_type<int, int>::__get_value()"
+  CS<0x7fd328f21c70> calls function "std::__1::pair<int const, int>* std::__1::addressof<std::__1::pair<int const, int> >(std::__1::pair<int const, int>&)"
+
+Call graph node for function: "std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__tree_node_destructor(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, bool)"<<0x7fd328f44240>>  #uses=2
+  CS<0x7fd328f30b80> calls function "std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__tree_node_destructor(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, bool)"
+
+Call graph node for function: "std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__tree_node_destructor(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, bool)"<<0x7fd328f55510>>  #uses=2
+
+Call graph node for function: "std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::operator()(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"<<0x7fd328f50eb0>>  #uses=2
+  CS<0x7fd328f4c3b0> calls function "std::__1::__tree_key_value_types<std::__1::__value_type<int, int> >::__get_ptr(std::__1::__value_type<int, int>&)"
+  CS<0x7fd328f4c5b8> calls function "void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::destroy<std::__1::pair<int const, int> >(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::pair<int const, int>*)"
+  CS<0x7fd328f4ca40> calls function "std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::deallocate(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, unsigned long)"
+  CS<0x7fd328f4cb30> calls function "__clang_call_terminate"
+
+Call graph node for function: "void std::__1::__tree_balance_after_insert<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)"<<0x7fd328f28db0>>  #uses=2
+  CS<0x7fd328f3fcd0> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f40240> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f40490> calls function "bool std::__1::__tree_is_left_child<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f40900> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f40a30> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f41170> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f414d0> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f40790> calls function "bool std::__1::__tree_is_left_child<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f41c20> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f41ea0> calls function "void std::__1::__tree_left_rotate<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f420c0> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f42420> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f42830> calls function "void std::__1::__tree_right_rotate<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f42ae0> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f43330> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f43690> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f43d10> calls function "bool std::__1::__tree_is_left_child<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f43fe0> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f44120> calls function "void std::__1::__tree_right_rotate<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f442f0> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f44650> calls function "std::__1::__tree_node_base<void*>::__parent_unsafe() const"
+  CS<0x7fd328f44900> calls function "void std::__1::__tree_left_rotate<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f44b30> calls function "__clang_call_terminate"
+
+Call graph node for function: "std::__1::tuple_element<0ul, std::__1::tuple<int&&> >::type& std::__1::get<0ul, int&&>(std::__1::tuple<int&&>&)"<<0x7fd328f00ee0>>  #uses=2
+  CS<0x7fd328f3de20> calls function "std::__1::__tuple_leaf<0ul, int&&, false>::get()"
+
+Call graph node for function: "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::map()"<<0x7fd328f35130>>  #uses=2
+  CS<0x7fd328f0a160> calls function "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::map()"
+
+Call graph node for function: "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::map()"<<0x7fd328f366c0>>  #uses=2
+  CS<0x7fd328f17a10> calls function "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>::__map_value_compare(std::__1::less<int>)"
+  CS<0x7fd328f17d88> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__tree(std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&)"
+
+Call graph node for function: "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::~map()"<<0x7fd328f363c0>>  #uses=3
+  CS<0x7fd328f0c180> calls function "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::~map()"
+
+Call graph node for function: "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::~map()"<<0x7fd328f32fa0>>  #uses=2
+  CS<0x7fd328f1e830> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::~__tree()"
+
+Call graph node for function: "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::operator[](int&&)"<<0x7fd328f371f0>>  #uses=2
+  CS<0x7fd328f0a9c0> calls function "std::__1::remove_reference<int&>::type&& std::__1::move<int&>(int&&&)"
+  CS<0x7fd328f0ac50> calls function "std::__1::tuple<int&&> std::__1::forward_as_tuple<int>(int&&)"
+  CS<0x7fd328f0b128> calls function "std::__1::tuple<> std::__1::forward_as_tuple<>()"
+  CS<0x7fd328f0b7e0> calls function "std::__1::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool> std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__emplace_unique_key_args<int, std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(int const&, std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"
+  CS<0x7fd328f0bd40> calls function "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>::operator->() const"
+  CS<0x7fd328f0bdf0> calls function "std::__1::__value_type<int, int>::__get_value()"
+
+Call graph node for function: "std::__1::remove_reference<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&>::type&& std::__1::move<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&>(std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&&&)"<<0x7fd328f0ea90>>  #uses=2
+
+Call graph node for function: "std::__1::remove_reference<int&>::type&& std::__1::move<int&>(int&&&)"<<0x7fd328f36290>>  #uses=2
+
+Call graph node for function: "std::__1::pair<int const, int>::pair<int&&>(std::__1::piecewise_construct_t, std::__1::tuple<int&&>, std::__1::tuple<>)"<<0x7fd328f54b70>>  #uses=2
+  CS<0x7fd328f3c1d0> calls function "std::__1::pair<int const, int>::pair<int&&, 0ul>(std::__1::piecewise_construct_t, std::__1::tuple<int&&>&, std::__1::tuple<>&, std::__1::__tuple_indices<0ul>, std::__1::__tuple_indices<>)"
+  CS<0x7fd328f3ba20> calls function "__clang_call_terminate"
+
+Call graph node for function: "std::__1::pair<int const, int>::pair<int&&, 0ul>(std::__1::piecewise_construct_t, std::__1::tuple<int&&>&, std::__1::tuple<>&, std::__1::__tuple_indices<0ul>, std::__1::__tuple_indices<>)"<<0x7fd328f00e20>>  #uses=2
+  CS<0x7fd328f3cc40> calls function "std::__1::pair<int const, int>::pair<int&&, 0ul>(std::__1::piecewise_construct_t, std::__1::tuple<int&&>&, std::__1::tuple<>&, std::__1::__tuple_indices<0ul>, std::__1::__tuple_indices<>)"
+
+Call graph node for function: "std::__1::pair<int const, int>::pair<int&&, 0ul>(std::__1::piecewise_construct_t, std::__1::tuple<int&&>&, std::__1::tuple<>&, std::__1::__tuple_indices<0ul>, std::__1::__tuple_indices<>)"<<0x7fd328f00e80>>  #uses=2
+  CS<0x7fd328f3d3d0> calls function "std::__1::tuple_element<0ul, std::__1::tuple<int&&> >::type& std::__1::get<0ul, int&&>(std::__1::tuple<int&&>&)"
+  CS<0x7fd328f3d620> calls function "int&&&& std::__1::forward<int&&>(std::__1::remove_reference<int&&>::type&)"
+
+Call graph node for function: "std::__1::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool>::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool&, false>(std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>&&, bool&&&)"<<0x7fd328f07820>>  #uses=2
+  CS<0x7fd328f2fe70> calls function "std::__1::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool>::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool&, false>(std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>&&, bool&&&)"
+
+Call graph node for function: "std::__1::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool>::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool&, false>(std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>&&, bool&&&)"<<0x7fd328f063f0>>  #uses=2
+  CS<0x7fd328f4d6b0> calls function "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>&& std::__1::forward<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long> >(std::__1::remove_reference<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long> >::type&)"
+  CS<0x7fd328f4db10> calls function "bool&&& std::__1::forward<bool&>(std::__1::remove_reference<bool&>::type&)"
+
+Call graph node for function: "std::__1::tuple<int&&>::tuple<int, false, false>(int&&)"<<0x7fd328f069c0>>  #uses=2
+  CS<0x7fd328f4e478> calls function "std::__1::tuple<int&&>::tuple<int, false, false>(int&&)"
+
+Call graph node for function: "std::__1::tuple<int&&>::tuple<int, false, false>(int&&)"<<0x7fd328f51050>>  #uses=2
+  CS<0x7fd328f4eb20> calls function "int&& std::__1::forward<int>(std::__1::remove_reference<int>::type&)"
+  CS<0x7fd328f4eea8> calls function "std::__1::__tuple_impl<std::__1::__tuple_indices<0ul>, int&&>::__tuple_impl<0ul, int&&, int>(std::__1::__tuple_indices<0ul>, std::__1::__tuple_types<int&&>, std::__1::__tuple_indices<>, std::__1::__tuple_types<>, int&&)"
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__end_node()"<<0x7fd328f2d230>>  #uses=4
+  CS<0x7fd328f13df0> calls function "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::first()"
+  CS<0x7fd328f14050> calls function "std::__1::pointer_traits<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*>::pointer_to(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>&)"
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::value_comp()"<<0x7fd328f2e6c0>>  #uses=3
+  CS<0x7fd328f12920> calls function "std::__1::__compressed_pair<unsigned long, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> >::second()"
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__begin_node()"<<0x7fd328f22420>>  #uses=5
+
+Call graph node for function: "std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__find_equal<int>(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, int const&)"<<0x7fd328f32490>>  #uses=3
+  CS<0x7fd328f0e1d0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__root() const"
+  CS<0x7fd328f0e4e0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__root_ptr() const"
+  CS<0x7fd328f0eb90> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::value_comp()"
+  CS<0x7fd328f0f010> calls function "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>::operator()(int const&, std::__1::__value_type<int, int> const&) const"
+  CS<0x7fd328f0f850> calls function "std::__1::__tree_node_base<void*>** std::__1::addressof<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*&)"
+  CS<0x7fd328f10280> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::value_comp()"
+  CS<0x7fd328f106a0> calls function "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>::operator()(std::__1::__value_type<int, int> const&, int const&) const"
+  CS<0x7fd328f10d50> calls function "std::__1::__tree_node_base<void*>** std::__1::addressof<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*&)"
+  CS<0x7fd328f118b0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__end_node()"
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__node_alloc()"<<0x7fd328f173b0>>  #uses=3
+  CS<0x7fd328f21100> calls function "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::second()"
+
+Call graph node for function: "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > > std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__construct_node<std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"<<0x7fd328f0aa10>>  #uses=2
+  CS<0x7fd328f29ac0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__node_alloc()"
+  CS<0x7fd328f29e58> calls function "std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::allocate(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, unsigned long)"
+  CS<0x7fd328f2a1e0> calls function "std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__tree_node_destructor(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, bool)"
+  CS<0x7fd328f2a6a0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::unique_ptr<true, void>(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, std::__1::__dependent_type<std::__1::__unique_ptr_deleter_sfinae<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >, true>::__good_rval_ref_type)"
+  CS<0x7fd328f2a930> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::operator->() const"
+  CS<0x7fd328f2ac00> calls function "std::__1::__tree_key_value_types<std::__1::__value_type<int, int> >::__get_ptr(std::__1::__value_type<int, int>&)"
+  CS<0x7fd328f2ad80> calls function "std::__1::piecewise_construct_t const&&& std::__1::forward<std::__1::piecewise_construct_t const&>(std::__1::remove_reference<std::__1::piecewise_construct_t const&>::type&)"
+  CS<0x7fd328f2ae00> calls function "std::__1::tuple<int&&>&& std::__1::forward<std::__1::tuple<int&&> >(std::__1::remove_reference<std::__1::tuple<int&&> >::type&)"
+  CS<0x7fd328f2af20> calls function "std::__1::tuple<>&& std::__1::forward<std::__1::tuple<> >(std::__1::remove_reference<std::__1::tuple<> >::type&)"
+  CS<0x7fd328f2b560> calls function "void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::construct<std::__1::pair<int const, int>, std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::pair<int const, int>*, std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"
+  CS<0x7fd328f2b7e0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::get_deleter()"
+  CS<0x7fd328f2be20> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::~unique_ptr()"
+  CS<0x7fd328f2bf70> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::~unique_ptr()"
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*)"<<0x7fd328f090e0>>  #uses=2
+  CS<0x7fd328f2d040> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__begin_node()"
+  CS<0x7fd328f2d420> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__begin_node()"
+  CS<0x7fd328f2d660> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__begin_node()"
+  CS<0x7fd328f2cd90> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__end_node()"
+  CS<0x7fd328f2dcd8> calls function "void std::__1::__tree_balance_after_insert<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f2dff0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::size()"
+
+Call graph node for function: "std::__1::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool> std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__emplace_unique_key_args<int, std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(int const&, std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"<<0x7fd328f34820>>  #uses=2
+  CS<0x7fd328f25a80> calls function "std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__find_equal<int>(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, int const&)"
+  CS<0x7fd328f26060> calls function "std::__1::piecewise_construct_t const&&& std::__1::forward<std::__1::piecewise_construct_t const&>(std::__1::remove_reference<std::__1::piecewise_construct_t const&>::type&)"
+  CS<0x7fd328f26360> calls function "std::__1::tuple<int&&>&& std::__1::forward<std::__1::tuple<int&&> >(std::__1::remove_reference<std::__1::tuple<int&&> >::type&)"
+  CS<0x7fd328f26750> calls function "std::__1::tuple<>&& std::__1::forward<std::__1::tuple<> >(std::__1::remove_reference<std::__1::tuple<> >::type&)"
+  CS<0x7fd328f26d10> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > > std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__construct_node<std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"
+  CS<0x7fd328f26ff0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::get() const"
+  CS<0x7fd328f27468> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*)"
+  CS<0x7fd328f27700> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::release()"
+  CS<0x7fd328f27af0> calls function "std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::~unique_ptr()"
+  CS<0x7fd328f27e28> calls function "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>::__tree_iterator(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"
+  CS<0x7fd328f28150> calls function "std::__1::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool>::pair<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>, bool&, false>(std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>&&, bool&&&)"
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::size()"<<0x7fd328f28de0>>  #uses=2
+  CS<0x7fd328f44ff0> calls function "std::__1::__compressed_pair<unsigned long, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> >::first()"
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::destroy(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"<<0x7fd328f14f50>>  #uses=4
+  CS<0x7fd328f1f838> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::destroy(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"
+  CS<0x7fd328f1fbe8> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::destroy(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"
+  CS<0x7fd328f1fe40> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__node_alloc()"
+  CS<0x7fd328f20310> calls function "std::__1::__tree_key_value_types<std::__1::__value_type<int, int> >::__get_ptr(std::__1::__value_type<int, int>&)"
+  CS<0x7fd328f206e8> calls function "void std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::destroy<std::__1::pair<int const, int> >(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::pair<int const, int>*)"
+  CS<0x7fd328f20a90> calls function "std::__1::allocator_traits<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::deallocate(std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >&, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, unsigned long)"
+  CS<0x7fd328f1f900> calls function "__clang_call_terminate"
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__tree(std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&)"<<0x7fd328f24bf0>>  #uses=2
+  CS<0x7fd328f187a8> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__tree(std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&)"
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__tree(std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&)"<<0x7fd328f247d0>>  #uses=2
+  CS<0x7fd328f191f0> calls function "std::__1::__compressed_pair<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>, std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >::__compressed_pair<true, void>()"
+  CS<0x7fd328f19750> calls function "std::__1::__compressed_pair<unsigned long, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> >::__compressed_pair<int, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>(int&&, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&&&)"
+  CS<0x7fd328f19810> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__end_node()"
+  CS<0x7fd328f19aa0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__begin_node()"
+  CS<0x7fd328f19e10> calls function "__clang_call_terminate"
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::~__tree()"<<0x7fd328f18210>>  #uses=2
+  CS<0x7fd328f1ec20> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::~__tree()"
+
+Call graph node for function: "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::~__tree()"<<0x7fd328f17a60>>  #uses=2
+  CS<0x7fd328f1eee0> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::__root() const"
+  CS<0x7fd328f1f008> calls function "std::__1::__tree<std::__1::__value_type<int, int>, std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true>, std::__1::allocator<std::__1::__value_type<int, int> > >::destroy(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*)"
+
+Call graph node for function: "std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long>&& std::__1::forward<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long> >(std::__1::remove_reference<std::__1::__tree_iterator<std::__1::__value_type<int, int>, std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, long> >::type&)"<<0x7fd328f50f90>>  #uses=2
+
+Call graph node for function: "std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > >&& std::__1::forward<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >(std::__1::remove_reference<std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> > > >::type&)"<<0x7fd328f543e0>>  #uses=3
+
+Call graph node for function: "std::__1::tuple<>&& std::__1::forward<std::__1::tuple<> >(std::__1::remove_reference<std::__1::tuple<> >::type&)"<<0x7fd328f0a1b0>>  #uses=6
+
+Call graph node for function: "std::__1::tuple<int&&>&& std::__1::forward<std::__1::tuple<int&&> >(std::__1::remove_reference<std::__1::tuple<int&&> >::type&)"<<0x7fd328f0a280>>  #uses=6
+
+Call graph node for function: "int&&&& std::__1::forward<int&&>(std::__1::remove_reference<int&&>::type&)"<<0x7fd328f00f60>>  #uses=2
+
+Call graph node for function: "std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&&& std::__1::forward<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>(std::__1::remove_reference<std::__1::__map_value_compare<int, std::__1::__value_type<int, int>, std::__1::less<int>, true> const&>::type&)"<<0x7fd328f19e60>>  #uses=3
+
+Call graph node for function: "std::__1::piecewise_construct_t const&&& std::__1::forward<std::__1::piecewise_construct_t const&>(std::__1::remove_reference<std::__1::piecewise_construct_t const&>::type&)"<<0x7fd328f0be40>>  #uses=6
+
+Call graph node for function: "std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&&& std::__1::forward<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&>(std::__1::remove_reference<std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*&>::type&)"<<0x7fd328f3c2f0>>  #uses=3
+
+Call graph node for function: "bool&&& std::__1::forward<bool&>(std::__1::remove_reference<bool&>::type&)"<<0x7fd328f50ff0>>  #uses=2
+
+Call graph node for function: "int&& std::__1::forward<int>(std::__1::remove_reference<int>::type&)"<<0x7fd328f1b040>>  #uses=7
+
+Call graph node for function: "std::__1::__value_type<int, int>* std::__1::addressof<std::__1::__value_type<int, int> >(std::__1::__value_type<int, int>&)"<<0x7fd328f51290>>  #uses=2
+
+Call graph node for function: "std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>* std::__1::addressof<std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*> >(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>&)"<<0x7fd328f290f0>>  #uses=2
+
+Call graph node for function: "std::__1::pair<int const, int>* std::__1::addressof<std::__1::pair<int const, int> >(std::__1::pair<int const, int>&)"<<0x7fd328f12410>>  #uses=2
+
+Call graph node for function: "std::__1::__tree_node_base<void*>** std::__1::addressof<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*&)"<<0x7fd328f2a230>>  #uses=4
+
+Call graph node for function: "std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::deallocate(std::__1::__tree_node<std::__1::__value_type<int, int>, void*>*, unsigned long)"<<0x7fd328f15980>>  #uses=2
+  CS<0x7fd328f237d0> calls function "std::__1::__libcpp_deallocate(void*, unsigned long, unsigned long)"
+  CS<0x7fd328f23950> calls function "__clang_call_terminate"
+
+Call graph node for function: "std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::allocate(unsigned long, void const*)"<<0x7fd328f554b0>>  #uses=2
+  CS<0x7fd328f32f50> calls function "std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::max_size() const"
+  CS<0x7fd328f33390> calls function "std::__1::__throw_length_error(char const*)"
+  CS<0x7fd328f33678> calls function "std::__1::__libcpp_allocate(unsigned long, unsigned long)"
+
+Call graph node for function: "void std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::construct<std::__1::pair<int const, int>, std::__1::piecewise_construct_t const&, std::__1::tuple<int&&>, std::__1::tuple<> >(std::__1::pair<int const, int>*, std::__1::piecewise_construct_t const&&&, std::__1::tuple<int&&>&&, std::__1::tuple<>&&)"<<0x7fd328f56ae0>>  #uses=2
+  CS<0x7fd328f3afa0> calls function "std::__1::piecewise_construct_t const&&& std::__1::forward<std::__1::piecewise_construct_t const&>(std::__1::remove_reference<std::__1::piecewise_construct_t const&>::type&)"
+  CS<0x7fd328f3b070> calls function "std::__1::tuple<int&&>&& std::__1::forward<std::__1::tuple<int&&> >(std::__1::remove_reference<std::__1::tuple<int&&> >::type&)"
+  CS<0x7fd328f3b2f0> calls function "std::__1::tuple<>&& std::__1::forward<std::__1::tuple<> >(std::__1::remove_reference<std::__1::tuple<> >::type&)"
+  CS<0x7fd328f3b748> calls function "std::__1::pair<int const, int>::pair<int&&>(std::__1::piecewise_construct_t, std::__1::tuple<int&&>, std::__1::tuple<>)"
+
+Call graph node for function: "std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<int, int>, void*> >::allocator()"<<0x7fd328f1beb0>>  #uses=2
+
+Call graph node for function: "std::terminate()"<<0x7fd328f20730>>  #uses=2
+  CS<0x0> calls external node
+
+Call graph node for function: "operator delete(void*)"<<0x7fd328f0ca30>>  #uses=2
+  CS<0x0> calls external node
+
+Call graph node for function: "operator new(unsigned long)"<<0x7fd328f18850>>  #uses=2
+  CS<0x0> calls external node
+
+Call graph node for function: "__clang_call_terminate"<<0x7fd328f20360>>  #uses=10
+  CS<0x7fd328f1a370> calls function "__cxa_begin_catch"
+  CS<0x7fd328f1a4a8> calls function "std::terminate()"
+
+Call graph node for function: "__cxa_allocate_exception"<<0x7fd328f404e0>>  #uses=4
+  CS<0x0> calls external node
+
+Call graph node for function: "__cxa_begin_catch"<<0x7fd328f3e5e0>>  #uses=3
+  CS<0x0> calls external node
+
+Call graph node for function: "__cxa_end_catch"<<0x7fd328f3d5b0>>  #uses=2
+  CS<0x0> calls external node
+
+Call graph node for function: "__cxa_free_exception"<<0x7fd328f3b180>>  #uses=4
+  CS<0x0> calls external node
+
+Call graph node for function: "__cxa_throw"<<0x7fd328f3eda0>>  #uses=4
+  CS<0x0> calls external node
+
+Call graph node for function: "__gxx_personality_v0"<<0x7fd328f3c5d0>>  #uses=1
+  CS<0x0> calls external node
+
+Call graph node for function: "llvm.eh.typeid.for"<<0x7fd328f383d0>>  #uses=1
+
+Call graph node for function: "llvm.memcpy.p0i8.p0i8.i64"<<0x7fd328f54b10>>  #uses=1
+
+Call graph node for function: "llvm.trap"<<0x7fd328f38be0>>  #uses=1
+
+Call graph node for function: "main"<<0x7fd328f2e4e0>>  #uses=1
+  CS<0x7fd328f089d0> calls function "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::map()"
+  CS<0x7fd328f08e08> calls function "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::operator[](int&&)"
+  CS<0x7fd328f09098> calls function "bar(int, std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > > const&)"
+  CS<0x7fd328f09810> calls function "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::~map()"
+  CS<0x7fd328f09a70> calls function "std::__1::map<int, int, std::__1::less<int>, std::__1::allocator<std::__1::pair<int const, int> > >::~map()"
+
